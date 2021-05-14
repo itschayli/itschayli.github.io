@@ -60,9 +60,9 @@ ambientSound.player.volume.value = -10; //turn down volume
 export var adventureMusic = new soundFile("awtylong.mp3");
 soundArray.push(adventureMusic);
 adventureMusic.player.loop = true;
-adventureMusic.player.volume.value = -25;
+adventureMusic.player.volume.value = -30;
 
 export var villageMusic = new soundFile("horsehooves.mp3");
 soundArray.push(villageMusic);
 villageMusic.player.loop = true;
-villageMusic.player.volume.value = -16;
+villageMusic.player.volume.value = -20;
