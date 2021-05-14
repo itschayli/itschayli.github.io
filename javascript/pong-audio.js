@@ -57,10 +57,10 @@ soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
 ambientSound.player.volume.value = -10; //turn down volume
 
-export var adventureMusic = new soundFile("awtylong.mp3");
+export var adventureMusic = new soundFile("horsehooves.mp3");
 soundArray.push(adventureMusic);
 adventureMusic.player.loop = true;
-adventureMusic.player.volume.value = -30;
+adventureMusic.player.volume.value = -15;
 
 export var villageMusic = new soundFile("horsehooves.mp3");
 soundArray.push(villageMusic);
