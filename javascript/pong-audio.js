@@ -59,10 +59,10 @@ ambientSound.player.volume.value = -10; //turn down volume
 
 export var adventureMusic = new soundFile("fairytalesong.mp3");
 soundArray.push(adventureMusic);
-adventureMusic.player.loop = true;
+adventureMusic.player.loop = true; //turn on looping
 adventureMusic.player.volume.value = -15;
 
 export var villageMusic = new soundFile("horsehooves.mp3");
 soundArray.push(villageMusic);
-villageMusic.player.loop = true;
+villageMusic.player.loop = true; // turn on looping
 villageMusic.player.volume.value = -20;
