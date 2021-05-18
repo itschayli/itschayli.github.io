@@ -57,7 +57,7 @@ soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
 ambientSound.player.volume.value = -10; //turn down volume
 
-export var adventureMusic = new soundFile("fairytaleshreksong.mp3");
+export var adventureMusic = new soundFile("fairytalesong.mp3");
 soundArray.push(adventureMusic);
 adventureMusic.player.loop = true;
 adventureMusic.player.volume.value = -15;
