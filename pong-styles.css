@@ -74,7 +74,7 @@ body {
 .ball {
   width: 20px;
   height: 20px;
-  background-color: light blue;
+  background-color: purple;
   border-radius: 10px;
   position: absolute;
   left: 50px;
